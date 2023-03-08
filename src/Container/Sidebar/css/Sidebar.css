@@ -1,0 +1,171 @@
+.sidenav{
+    width:17%;
+    height:100vh;
+    background:var(--sidebarbg);
+    border-radius: 0 2.5rem 2.5rem 0 ;
+    position: fixed;
+
+}
+.sidebarlistholder{
+  overflow-y: auto;
+  height:80vh;
+  overflow-x:clip;
+}
+/* width */
+::-webkit-scrollbar {
+  width: .1px;
+  position:absolute;
+  right:0;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--sidebarbg); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:var(--hoverside); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sidebarbg); 
+}
+
+.sidenav .logoholder{
+  padding:0px;
+}
+.sidenav .Logo{
+  display:flex;
+  width:100%;
+  height:100%;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.sidenav .Logo .mainlogo{
+width:100%;
+max-width:45px;
+
+}
+.sidenav .Logo .logo{
+  width:100%;
+  max-width:63%;
+  height:100%;
+  max-height:15%;
+}
+
+
+.dashboardbtn{
+    display: inline-flex;
+    align-items: center;
+    padding: .25rem .5rem;
+    font-weight: 600;
+    color:      rgba(255, 255, 255, 0.85) ;
+    background-color: transparent;
+    border: 0; 
+}
+.link-dark:focus, .link-dark:hover {
+  color:      rgba(255, 255, 255, 0.85) 
+}
+.dashboardbtn a{
+    text-decoration: none;
+    color:     rgba(255, 255, 255, 0.85) ;
+}
+
+
+.dashboardbtn:hover,
+.dashboardbtn-toggle:focus {
+  color:      rgba(255, 255, 255, 0.85) ;
+  background-color: var(--hoverside);
+}
+
+
+.b-example-divider {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+    background-color:      rgba(255, 255, 255, 0.85) ;
+    border: solid      rgba(255, 255, 255, 0.85) ;
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em      rgba(255, 255, 255, 0.85) , inset 0 .125em .5em      rgba(255, 255, 255, 0.85) ;
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    pointer-events: none;
+    fill: currentColor;
+  }
+  
+  .dropdown-toggle { outline: 0; }
+  
+  .nav-flush .nav-link {
+    border-radius: 0;
+  }
+  
+  .btn-toggle {
+    display: inline-flex;
+    align-items: center;
+    padding: .25rem .5rem;
+    font-weight: 600;
+    color:      rgba(255, 255, 255, 0.85) ;
+    background-color: transparent;
+    border: 0;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    margin:5px 0;
+  }
+  .btn-toggle:hover,
+  .btn-toggle:focus {
+    color:      rgba(255, 255, 255, 0.85) ;
+    background-color: var(--hoverside);
+
+  }
+  
+  .btn-toggle::after {
+    width: 1.25em;
+    line-height: 0;
+    font-family: "Font Awesome 6 Free";
+    content: "\f0da";
+    transition: transform .35s ease;
+    transform-origin: .5em 50%;
+    
+  }
+  
+  .btn-toggle[aria-expanded="true"] {
+    color:      rgba(255, 255, 255, 0.85) ;
+  }
+  .btn-toggle[aria-expanded="true"]::after {
+    transform: rotate(90deg);
+  }
+  .btn-toggle i{
+    transition: transform .35s ease;
+  } 
+  .btn-toggle[aria-expanded="true"] i{
+    transform: rotate(360deg);
+  } 
+  
+  .btn-toggle-nav a {
+    display: inline-flex;
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: 1.25rem;
+    text-decoration: none;
+    color:     rgba(255, 255, 255, 0.85) ;
+  }
+  .btn-toggle-nav a:hover,
+  .btn-toggle-nav a:focus {
+    background-color: var(--hoverside);
+  }
+  
+  .scrollarea {
+    overflow-y: auto;
+  }
+  
+  .fw-semibold { font-weight: 600; }
+  .lh-tight { line-height: 1.25; }
+  .btn-check:focus+.btn, .btn:focus{
+    box-shadow: none;
+  }
