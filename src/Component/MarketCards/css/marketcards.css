@@ -1,0 +1,67 @@
+.Marketcards .card-body h4{
+    font-size: 1rem;
+    margin:0;
+    font-weight:600;
+}
+.Marketcards .card-body {
+    padding-left:1.875rem;
+    padding-right:1.875rem;
+}
+.Marketcards .card-body .marketlist{
+    padding: 8px 10px;
+    border-radius: 0.625rem;
+    display:flex;
+    justify-content: space-between;
+}
+
+.Marketcards .card-body .marketlist .cryptoprice{
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+
+.Marketcards .card-body .marketlist .cryptoprice .icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+   
+}
+.Marketcards .card-body .marketlist .cryptoprice .icon i{
+    font-size: 17px;
+    line-height: 30px;
+    color: var(--white);
+    
+}
+.Marketcards .card-body .marketlist{
+    background:transparent;
+    transition:0.8s ease-in-out;
+}
+.Marketcards .card-body .marketlist:hover{
+    background: rgba(149, 104, 255, 0.1);
+}
+.Marketcards .card-body .marketlist .cryptoprice h5{
+    font-size: 1rem;
+    margin:0;
+    color:var(--lightblack);
+    margin-left:0.5rem;
+    font-weight:600;
+}
+.Marketcards .card-body .marketlist .coins{
+    font-size: 0.875rem;
+    color:var(--lightgrey);
+    display: flex;
+    align-items: center;
+    
+   
+
+}
+
+.Marketcards .card-body .marketlist .interest{
+    font-size: 0.875rem;
+    color:var(--text-sucess);
+    display: flex;
+    align-items: center;
+}

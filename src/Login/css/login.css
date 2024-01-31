@@ -1,0 +1,137 @@
+.loginformholder{
+    background-image:url(../../assets/loginbg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.loginformholder .loginform{
+    overflow: auto;
+    height: 100vh;
+    padding:1rem;
+    
+}
+.loginformholder .loginform .formlogo{
+    margin-top:100px;
+}
+.loginformholder .loginform .formlogo img{
+width:100%;
+max-width: 230px;
+margin-bottom: 2rem;
+
+}
+.formheading h4{
+    font-size:1.1256rem;
+    font-weight: 600;
+}
+.formheading span{
+    color:var(--lightgrey);
+}
+
+input{
+    box-shadow: none!important;
+}
+
+.formbody button{
+    background:var(--primary);
+    color:var(--white)
+}
+.form-control:focus{
+    border-color:var(--sidebarbg)!important;
+}
+.btn{
+    padding: 0.625rem 1rem !important;
+    font-size: 0.813rem!important;
+    font-weight: 600!important;
+    border-radius: 0.625rem!important;
+}
+.formbody button:hover{
+    color:var(--white);
+    background:var(--sidebarbg);
+    
+}
+.forgetpass{
+    width:100%;
+    max-width:fit-content;
+    margin:0 auto;
+}
+.forgetpass button{
+    color:var(--primary)!important;
+    background:transparent!important;
+    border:1px solid var(--white);
+}
+.forgetpass button:hover{
+    border:1px solid var(--rgba-primary-1);
+    background:var(--rgba-primary-1)!important;
+}
+
+.btn-groups{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.loginremember input{
+    margin-left: 10px;
+}
+.loginremember label{
+    color:var(--lightgrey);
+}
+
+
+
+.backbtn{
+    border:0px;
+    padding: 0.625rem 1rem !important;
+    font-size: 0.813rem!important;
+    font-weight: 600!important;
+    border-radius: 0.625rem!important;
+}
+
+.Socailicons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Socailicons ul {
+    display:inline-flex;
+    margin:0;
+    padding:0;
+
+}
+.Socailicons ul li{
+    margin:0;
+    padding:0;
+    list-style:none;
+    margin-right:3px;
+    font-size: 14px;
+    height: 35px;
+    width: 35px;
+    border-radius:0.235rem;
+    /* background:var(--primary); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Socailicons ul li a{
+    color:var(--white);
+}
+
+.Socailicons ul li:nth-child(1){
+    background:var(--fbcolor);
+
+}
+.Socailicons ul li:nth-child(2){
+    background:var(--google);
+
+}
+.Socailicons ul li:nth-child(3){
+    background:var(--linkindin);
+
+}
+.Socailicons ul li:nth-child(4){
+    background:var(--skype);
+
+}
+.formholderrow{
+    overflow:clip;
+}

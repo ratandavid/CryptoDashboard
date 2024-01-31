@@ -1,7 +1,95 @@
-:root{
-    --sidebarbg:#362465;
-    --hoverside:#54457C;
-  } 
+:root {
+    --sidebarbg: #362465;
+    --hoverside: #54457C;
+    --dashcard: #F3AA2C;
+    --lightblack: #374557;
+    --lightgrey: #A098AE;
+    --text-sucess: #00A389;
+    --white: #fff;
+    --rgba-primary-1: rgba(149, 104, 255, 0.1);
+    --rgba-primary-2: rgba(149, 104, 255, 0.2);
+    --primary: #9568FF;
+    --fbcolor:#3C5995;
+    --google:#E1473A;
+    --linkindin:#007AB3;
+    --skype:#04A0EE;
+    
+}
 
+.App {
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
 
+.dashbody {
+    width: 100%;
+    max-width:83%;
 
+}
+
+.dashboardcontainer,
+.marketcontainer,
+.icolistcontainer,
+.footer-container,.p2pcontainer,.futuretradingcontainer {
+    padding-top: 1.875rem;
+    padding-right: 1.875rem;
+    padding-left: 1.875rem;
+}
+
+.dashcards {
+    background: var(--dashcard);
+    border-radius: 1.25rem;
+}
+
+.dashcardheader {
+    padding: 1.5rem 1.875rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashcards .dashcardheader .headercontent {
+    color: #fff;
+}
+
+.dashcards .dashcardheader .headercontent p .icon {
+    margin-right: 10px;
+}
+
+.dashcards .dashcardheader .iconholder {
+    width: 100%;
+    max-width: 20%;
+    fill: #fff;
+
+}
+
+.dashcards .dashcardheader .iconholder svg {
+    width: 55px;
+    height: 55px;
+}
+
+.dashcards .dashcardheader .headercontent p {
+    margin: 0;
+    font-size: 13px;
+}
+
+.dashcards .dashcardheader .headercontent h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.changeback {
+    background-color: red;
+}
+
+.LineGraph {
+    width: 100% !important;
+    height: 50px;
+
+}

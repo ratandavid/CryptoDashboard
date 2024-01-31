@@ -1,0 +1,43 @@
+.icolistcard {
+    transition:0.5s;
+}
+.icolistcard .card-body{
+    padding: 1.875rem;
+    
+}
+.icolistcard .card-body .title{
+    display:flex;
+}
+.icolistcard .card-body .title i{
+    font-size:25px;
+    color:var(--primary);
+}
+.icolistcard .card-body .title .crd-title{
+    margin-left:12px;
+}
+.icolistcard .card-body .title .crd-title h4{
+    font-size: 18px;
+    color:var(--sidebarbg);
+    margin:0;
+    font-weight:600;
+}
+.icolistcard .card-body .title .crd-title span,.icolistcard .card-body .crd-content span{
+    color:var(--lightgrey);
+    font-size: 0.75rem;
+}
+.icolistcard .card-body .crd-content{
+    display: flex;
+    justify-content: space-between;
+}
+.icolistcard .card-body .crd-content p{
+margin:0;
+}
+.icolistcard:hover{
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 14px 24px rgba(0, 0, 0, 0.08);
+
+}
+
+.icolistcard .card-body .crd-content .rightside p{
+color:var(--text-sucess);
+}

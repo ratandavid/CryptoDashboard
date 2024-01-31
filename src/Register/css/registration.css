@@ -1,0 +1,36 @@
+.registration{
+    background:var(--white);
+    width:100%;
+    max-width:40%;
+    padding: 3.125rem 3.125rem;
+    border-radius:5px;
+}
+
+.registrationlogo{
+    width:100%;
+    max-width:50%;
+    margin:0 auto;
+}
+
+.registration .formheading{
+    text-align: center;
+}
+
+.registration .registerformbody label{
+    color:var(--lightgrey);
+    font-weight:bolder;
+}
+
+
+.registerformbody .registersubmit{
+    background:var(--primary);
+    color:var(--white);
+    width: 100%;
+}
+
+
+.alreadyaccount a{ 
+    color:var(--primary);
+    font-weight:bold;
+    text-decoration: none;
+}

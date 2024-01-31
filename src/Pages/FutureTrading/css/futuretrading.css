@@ -1,0 +1,31 @@
+.futuretradingcontainer .markettablecard .card-body{
+    padding-top: 0;
+
+}
+
+.futuretradingcontainer .availablebalance span{
+    color:var(--lightgrey);
+}
+
+
+.input-group-text{
+    background:var(--rgba-primary-1);
+    color:var(--primary);
+    font-size: 0.875rem;
+}
+.takeprofitheading span{ 
+    color:var(--lightgrey);
+}
+.inputdropdown .btn{
+    border-radius:0px 5px 5px 0px!important;
+    background:var(--primary);
+    color:var(--white);
+}
+
+.formbtn button{
+    background:var(--primary);
+    color:var(--white);
+}
+.formbtn .sellbtn{
+    background:var(--google);
+}

@@ -1,0 +1,68 @@
+.p2pcontainer .card .card-header{
+    border-radius: 1.25rem 1.25rem !important;
+}
+.p2pcontainer .card .card-header h4{
+    font-size: 18px;
+    font-weight:600;
+    margin:0;
+}
+.p2pcontainer .card .card-header .crdcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.p2ptabcontentcard .card-header{
+    border-bottom:0px !important;
+}
+
+.p2ptabcontentcard .card-header .paymentarea{
+    display:flex;
+}
+
+
+.p2ptabcontentcard .card-header .paymentarea input{
+    width:100%;
+    max-width:fit-content;
+    background:var(--rgba-primary-1);
+    border:none;
+    margin-right:10px;
+}
+.p2ptabcontentcard .card-header .paymentarea select{
+    width:100%;
+    max-width:fit-content;
+    margin-right:10px;
+}
+
+
+.p2ptabcontentcard .card-header .paymentarea .form-select:focus {
+    border-color: var(--sidebarbg);
+    outline: 0;
+    box-shadow:none;
+}
+
+.p2ptabcontentcard .card-body{
+   padding: 1.875rem !important;
+   padding-top: 0rem!important;
+}
+
+.buy-content .buy-content_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buy-content .buy-content_header h4{
+    font-size: 18px;
+    font-weight:600;
+    margin:0;
+    color: var(--sidebarbg);
+}
+
+.deletebtn i{
+    background:var(--google);
+    color:var(--white);
+    padding:10px;
+    border-radius:4px;
+}

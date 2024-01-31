@@ -1,0 +1,12 @@
+.FooterCard{
+    background:#fff;
+    border-radius: 1.25rem 1.25rem 0 0;
+    padding: 1.5rem 1.875rem 1.25rem;
+}
+.FooterCard p{
+    margin:0;
+    text-align: center;
+}
+.FooterCard p b{
+    color:var(--sidebarbg);
+}

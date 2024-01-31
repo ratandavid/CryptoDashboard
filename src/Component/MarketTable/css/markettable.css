@@ -1,0 +1,42 @@
+.markettablecard .nav-tabs .nav-link{
+    border:none;
+    color:#000;
+    font-size:12px;
+}
+.markettablecard .card-header{
+    border:none;
+}
+.markettablecard .nav-tabs{
+    padding: 6px;
+    border: 1px solid var(--primary);
+    border-radius: 0.5rem;
+    width:100%;
+    max-width:fit-content;
+    justify-content: space-around;
+}
+.markettablecard .card-body{
+    padding: 1.5rem 1.875rem 1.25rem;
+}
+.markettablecard .nav-link.active{
+    background:var(--primary);
+    color:var(--white);
+    border-radius: 0.25rem;
+}
+.markettablecard .table{
+    width:100%;
+}
+.markettablecard .table tbody tr{
+    transition:0.8s;
+    box-shadow: none;
+}
+.markettablecard .table tbody tr:hover{
+    box-shadow: 0 0rem 1.875rem var(--rgba-primary-2);
+}
+.markettablecard .market-title{
+    display:flex;
+    align-items: center;
+}
+.markettablecard .market-title .coin{
+    color:var(--lightgrey);
+}
+

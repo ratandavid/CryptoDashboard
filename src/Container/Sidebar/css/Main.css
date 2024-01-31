@@ -1,0 +1,31 @@
+.maincontainer {
+    display: flex;
+    width: 100%;
+}
+.sidenav {
+    width: 17%;
+    height: 100vh;
+    background: var(--sidebarbg);
+    border-radius: 0 2.5rem 2.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+    overflow:hidden;
+    transition:0.8s;
+  
+  }
+  
+
+
+
+/* hidesidenav */
+.hidenav{
+    width: 0px;
+    height: 100vh;
+    background: var(--sidebarbg);
+    border-radius: 0 2.5rem 2.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 999999;
+    overflow:hidden;
+  }
